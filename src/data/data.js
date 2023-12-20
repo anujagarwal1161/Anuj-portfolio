@@ -1,6 +1,6 @@
 import { AiFillAppstore } from "react-icons/ai";
-import { FaMobile, FaGlobe, FaJava, FaAlgolia } from "react-icons/fa";
-import { SiProgress, SiAntdesign } from "react-icons/si";
+import { FaAlgolia, FaJava } from "react-icons/fa";
+import { SiAntdesign } from "react-icons/si";
 
 // Features Data
 export const featuresData = [
