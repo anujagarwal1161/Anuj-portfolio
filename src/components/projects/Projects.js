@@ -17,28 +17,23 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard 
-          title="ZEALICON WEBSITE[COLLEGE ANNUAL TECHNO-CULTURAL FEST]"
-          des=" This website is used by Delhi NCR college to know about the events of the fest and purchase the zeal id to attend the fest and is build using React JS and Django."
-          src={projectOne}
+          title="Authentication and Authorization Service"
+          des=" This project focuses on managing and securing access within a multi-user system involving various roles and permissions. Itincludes API integrations for user authentication, authorization, and business operations. Key components include:User Authentication: Handling user login with phone and MPIN to generate access tokens.Authorization: Determining user types and generating business tokens based on user credentials.Business Management: Providing detailed business information and validating permissions for business-merchantinteractions."
+          // src={projectOne}
         />
         <ProjectsCard
-          title="Github Finder"
-          des="This project is build using HTML CSS JAVASCRIPT and it can find your github profile and the latest five repositories that uou have created as soon as you enter your github username."
+          title="Delhi Metro Whatsapp Ticket Booking System"
+          des="This project enables seamless metro ticket booking via WhatsApp, enhancing user convenience with a chatbot-based interface. Key features include:User-Friendly Booking: Allows users to book metro tickets by simply chatting on WhatsApp.Payment Integration: Supports secure online payments for hassle-free transactions.QR Code Generation: Generates QR-based digital tickets for easy entry at metro stations.Real-Time Updates: Provides live updates on ticket status, metro schedules, and fare details.Secure & Scalable:Ensures data security while handling a high volume of booking requests efficiently."
           src={projectTwo}
         />
         <ProjectsCard
-          title="E-Commerce Website"
-          des="This is an e-commerce hub nothing short of amazon and you can actually buy items online."
+          title="Mumbai Metro Whatsapp Ticket Booking System"
+          des="This project enables hassle-free metro ticket booking via WhatsApp, offering a seamless and automated travel experience. Key features include:Easy Ticket Booking: Users can book metro tickets directly through WhatsApp chat.Integrated Payment System: Secure online payments for quick and convenient transactions.QR Code-Based Tickets: Generates digital QR tickets for smooth entry at metro stations.Live Metro Updates: Provides real-time schedules, fare details, and ticket status notifications.Scalable & Secure: Designed to handle large volumes of bookings with robust security measures."
           src={projectThree}
         />
         <ProjectsCard
-          title="Fund Trail Analysis Tool"
-          des="This is a project i created in Kavach-2023 which is a hackathon organized by Indian Government using React and Cyber security."
-          src={projectThree}
-        />
-        <ProjectsCard
-          title="Contact Manager"
-          des="This is my another personal project where i have created a contact manager using react and redux which can manage your Contact List."
+          title="Zealicon"
+          des="Designed to highlight all events for the Zealicon festival. Provides functionality for purchasing tickets directly through the site.Comprehensive display of all scheduled events with detailed descriptions.Developed and optimized the user interface to enhance usability and engagement.Users can register for an event by clicking on event."
           src={projectThree}
         />
       </div>

@@ -4,7 +4,7 @@ import Media from "./Media";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ["Professional Coder.", "Frontend Developer.", "UI Designer."],
+    words: ["Software Engineer.", "Backend Developer", "Professional Coder"],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,
@@ -27,10 +27,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I put imagination to reality by creating websites using my frontend
-          skills, and I can really amaze you with my skills. I create amazing
-          UI's. Also I am a professional Coder and loves to learn something new
-          on my way.
+        "Turning Ideas into Scalable Solutions – Backend Developer | Software Engineer | Problem Solver"
         </p>
       </div>
       {/* Media */}
